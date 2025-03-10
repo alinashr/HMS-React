@@ -1,0 +1,148 @@
+@import "tailwindcss";
+/* html, body { */
+  /* width: 100%;
+  max-width: 100%; */
+  /* overflow-x: hidden; */
+/* } */
+
+body {
+  min-height: 100vh;
+}
+
+
+*{
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* Sticky Navbar */
+.navbars {
+  position: sticky;
+  top: 0;
+  z-index: 1000; /* Ensure the navbar is on top */
+  width: 100%;
+  background-color: #ffffff; /* Add a background color to make it visible */
+}
+
+.navitem:hover{
+  color: rgb(20, 113, 126);
+}
+
+.app_f{
+    background-image: url(assets/form_bg.png);
+    background-size: cover;
+}
+
+.signup{
+  padding:  100px 0px !important;
+    background-image: url(assets/form_bg.png);
+    background-size: cover;
+}
+
+.log_f{
+    background-image: url(assets/form_bg.png);
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.app_f form{
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3px );
+  -webkit-backdrop-filter: blur( 3px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+}
+
+.log_f form{
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3px );
+  -webkit-backdrop-filter: blur( 3px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 ); 
+}
+
+.signup form{
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 3px );
+  -webkit-backdrop-filter: blur( 3px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+    
+}
+
+
+
+
+.btn {
+  background: #022954;
+}
+
+.button .sign {
+  padding: 10px 20px;
+}
+
+.scrolled {
+  background: linear-gradient(rgba(246, 166, 166, 0.6)10%,rgba(196, 234, 199, 0.6))60%;
+  /* Change to desired color */
+  /* color: rgb(246, 253, 246) !important; */
+}
+
+/* .appointment .login .signup{
+    background: #a4b4bf;
+  } */
+/* .login{
+    background: #a4b4bf;
+    margin-top: 15px;
+  } */
+
+.dropdown {
+    color: #6c757d;
+}
+
+.app{
+  padding: 0 13px;
+  align-items: center;
+}
+
+/* services */
+.patient .img{
+  width: 45rem;
+  height: auto;
+}
+
+.patient p{
+  font-size: 17px;
+}
+/* services */
+
+.card-specialist:hover{
+  cursor: pointer;
+  background: rgba(203, 227, 239, 0.25);
+  box-shadow: 0 5px 12px  rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 25px );
+  -webkit-backdrop-filter: blur( 15.5px );
+  border: 1px solid rgba( 255, 255, 12, 0.18 );
+}
+
+.specialists, .services{
+  background: #268797;
+}
+
+.carousel img{
+  height: 100vh !important;
+}
+
+/* .specialistCard{
+  height: 500px;
+  width: 300px;
+
+} */
+
+.card img{
+  /* height: 220px !important;
+  width: 220px !important; */
+}
